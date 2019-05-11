@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
  * 描述:
  */
 
-@RestController
+@RestController//可以返回json
 public class HelloWorldContoller {
-
+    //123456
     @RequestMapping("/hello")
     public String hello(){
         return "helloworld";
