@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController//返回json
 public class HelloWorldContoller {
-    //123456
-    @RequestMapping("/hello")
+    @RequestMapping("/hello1")
     public String hello(){
         return "helloworld";
     }
